@@ -97,14 +97,13 @@ Edit `main/config.h` to customize your firmware:
 1. Flash the firmware to your ESP32.
 2. Power it on — it will create a Wi‑Fi access point.
 3. Connect to the AP using a device.
-4. Open a browser and go to `http://192.168.4.1`.
-5. Click the file download link to get your file.
+4. Click the file download link to get your file.
 
 ---
 
 ## SPIFFS Upload
 
-Place your file in the `spiffs_image` folder, then build the SPIFFS image:
+Place your file in the `spiffs` folder, then build the SPIFFS image:
 
 ```bash
 idf.py spiffs_create
@@ -117,7 +116,6 @@ idf.py -p COMx flash
 
 * Optionally protect your AP with a password.
 * Only serves files stored in SPIFFS.
-* HTTPS can be added for secure downloads (advanced).
 
 ---
 
