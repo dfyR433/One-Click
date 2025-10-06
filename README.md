@@ -1,10 +1,7 @@
 <p align="center">
-  <img src="assets/logo/one_click_logo.png" alt="One Click Logo" width="200"/>
+  <img src="assets/one_click_logo.png" alt="One Click Logo" width="200"/>
 </p>
 
-<h1 align="center">One Click</h1>
-<p align="center"><b>ESP32 Wi-Fi File Downloader Firmware</b></p>
-<p align="center">Download. Fast. Effortless.</p>
 # One Click
 > **ESP32 Wi-Fi File Downloader Firmware**
 
@@ -20,16 +17,16 @@ Power it up, connect to the access point, and grab your files directly from the 
 
 ---
 
-## ✨ Key Features
-- 🚀 **Single-click file download** over Wi-Fi  
-- 📡 **Standalone Access Point mode** — no router needed  
-- 💾 **SPIFFS**  
-- 🔒 **Optional access password**  
-- ⚙️ **Built with ESP-IDF for stability and speed**  
+## Key Features
+-  **Single-click file download** over Wi-Fi  
+-  **Standalone Access Point mode** — no router needed  
+-  **SPIFFS**  
+-  **Optional access password**  
+-  **Built with ESP-IDF for stability and speed**  
 
 ---
 
-## 🧩 Hardware & Software
+## Hardware & Software
 ### **Hardware**
 - ESP32-WROOM / LOLIN32 / NodeMCU-32 or compatible  
 - Power supply: 5 V via USB or VIN  
@@ -39,7 +36,7 @@ Power it up, connect to the access point, and grab your files directly from the 
 
 ---
 
-## ⚙️ Installation
+## Installation
 ### **ESP-IDF**
 ```bash
 git clone https://github.com/yourusername/one-click.git
