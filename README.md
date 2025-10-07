@@ -1,6 +1,6 @@
 # One Click
 
-> **ESP32 Wi-Fi File Downloader Firmware**
+> **ESP32-S2 Wi-Fi File Downloader Firmware**
 
 <p align="center">
   <img src="assets/one_click_logo.png" alt="One Click Logo" width="200"/>
@@ -32,7 +32,7 @@ Power it up, connect to the access point, and grab your files directly from the 
 
 ## Hardware Requirements
 
-* ESP32-WROOM / LOLIN32 / ESP32-S2 / NodeMCU-32 or compatible
+* ESP32-S2 / ESP32-S3
 * Power supply: 5 V via USB or VIN
 
 ---
